@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 26 May 2024 19:11:48 at http://localhost/APS/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qYC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" -Y http://localhost/APS/ -O1 "C:\xampp\htdocs\APS" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:12:36	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://gmpg.org/robots.txt (from localhost/APS/)
+19:12:36	Warning: 	Retry after error -5 (Unable to get server's address: No such host is known. ) at link https://gmpg.org/xfn/11 (from localhost/APS/)
+19:12:47	Error: 	"Not Found" (404) at link fonts.googleapis.com/ (from localhost/APS/)
+19:13:41	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://gmpg.org/xfn/11 (from localhost/APS/)
+19:13:42	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://gmpg.org/xfn/11 (from localhost/APS/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 54 seconds : 34 links scanned, 26 files written (2015209 bytes overall) [2028090 bytes received at 17790 bytes/sec], 1713 bytes transferred using HTTP compression in 3 files, ratio 51%, 3.3 requests per connection
+(3 errors, 2 warnings, 0 messages)
